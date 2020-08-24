@@ -6,12 +6,10 @@
     background-color: rgb(206, 211, 196);
     font-family: "Adobe Devanagari";  
 }
-
 #submit_page {
     background-color: rgb(225, 251, 203);
     font-family: "Adobe Devanagari";  
 }
-
   nav {
     margin-right: 80px;
     display: flex;
@@ -72,31 +70,25 @@
   .right-side img {
     width: 110%;
   }
-
   #clock-icon {
     max-width: 50px;
 }
-
 #calories-icon {
     max-width: 50px;
 }
-
 .recipe-text p {
     font-size: 20px;
     max-width: 1000px;
 }
-
 .right-side-recipes {
     margin-top: -800px;
     float: right;
     padding: 0px 0px 0px 900px;
   }
-
   .right-side-recipes img {
     width: 110%;
     float: right;
   }
-
   .right-side-submit {
     margin-top: -850px;
     float: right;
