@@ -1,64 +1,115 @@
 #landing_page {
-  background-color: rgb(251, 212, 203);
-  font-family: "Adobe Devanagari";
+    background-color: rgb(251, 212, 203);
+    font-family: "Adobe Devanagari";
+  }
+​
+  #recipes_page {
+    background-color: rgb(206, 211, 196);
+    font-family: "Adobe Devanagari";  
 }
-nav {
-  margin-right: 80px;
-  display: flex;
-  justify-content: flex-end;
+​
+#submit_page {
+    background-color: rgb(225, 251, 203);
+    font-family: "Adobe Devanagari";  
 }
-nav ul li a {
-  color: black;
-  text-decoration: none;
+​
+  nav {
+    margin-right: 80px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  nav ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px 40px 10px 40px;
+  }
+  .page_title {
+    font-size: 72px;
+    margin-left: 50px;
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+  }
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .content p {
+    font-size: 80px;
+    margin: 0;
+  }
+  .searchbox {
+    margin: 40px 40px 40px -10px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .searchbox input {
+    width: 80%;
+    border-radius: 30px;
+    border: 0;
+    padding: 10px;
+  }
+  .searchbox button {
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+  }
+  .criteriaList {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  .right-side {
+    margin-top: -200px;
+  }
+  .right-side img {
+    width: 110%;
+  }
+​
+  #clock-icon {
+    max-width: 50px;
 }
-nav ul li {
-  list-style-type: none;
-  display: inline;
-  padding: 10px 40px 10px 40px;
+​
+#calories-icon {
+    max-width: 50px;
 }
-.page_title {
-  font-size: 72px;
-  margin-left: 50px;
+​
+.recipe-text p {
+    font-size: 20px;
+    max-width: 1000px;
 }
-.content {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 50px;
-}
-.left-side {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-}
-.content p {
-  font-size: 80px;
-  margin: 0;
-}
-.searchbox {
-  margin: 40px 40px 40px -10px;
-  display: flex;
-  justify-content: space-around;
-}
-.searchbox input {
-  width: 80%;
-  border-radius: 30px;
-  border: 0;
-  padding: 10px;
-}
-.searchbox button {
-  border-radius: 10px;
-  border: 0;
-  padding: 10px;
-}
-.criteriaList {
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  margin: 20px;
-}
-.right-side {
-  margin-top: -200px;
-}
-.right-side img {
-  width: 110%;
-}
+​
+.right-side-recipes {
+    margin-top: -800px;
+    float: right;
+    padding: 0px 0px 0px 900px;
+  }
+​
+  .right-side-recipes img {
+    width: 110%;
+    float: right;
+  }
+​
+  .right-side-submit {
+    margin-top: -850px;
+    float: right;
+    padding: 0px 0px 0px 1200px;
+  }
+​
+  .right-side-submit img {
+    width: 200%;
+    float: right;
+  }
+​
+  #sharerecipe {
+      height: 200px;
+      width: 600px;
+  }
