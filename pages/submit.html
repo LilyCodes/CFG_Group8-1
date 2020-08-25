@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/CFG_Group8/css/style.css" />
     <title>Group8</title>
-  </head>
+    <script>
+function myFunction() {
+  document.getElementById("javascriptTest").innerHTML = "Thanks for submitting!";
+}
+</script>
+</head>
+<body>
   <body id="submit_page">
     <nav>
       <ul class="navigation">
@@ -29,7 +35,8 @@
           <label for="sharerecipe">Share your recipe:</label><br />
           <input type="textarea" id="sharerecipe" name="sharerecipe" />
           <br /><br />
-          <button type="button">Submit!</button>
+          <p id="javascriptTest">Submit your recipe.</p>
+          <button type="button" onclick="myFunction()">Submit</button>
         </form>
         <div class="right-side-submit">
           <img
