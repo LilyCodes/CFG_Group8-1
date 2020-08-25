@@ -2,14 +2,27 @@
     background-color: rgb(251, 212, 203);
     font-family: "Adobe Devanagari";
   }
+
   #recipes_page {
     background-color: rgb(206, 211, 196);
     font-family: "Adobe Devanagari";  
 }
+
 #submit_page {
     background-color: rgb(225, 251, 203);
     font-family: "Adobe Devanagari";  
 }
+
+#trending_page {
+  background-color: rgb(223, 233, 255);
+  background-image: url("474-4744346_food-top-view-png-transparent-png.png");
+  background-repeat: no-repeat;
+  background-position: 900px;
+  background-size: 1500px;
+  padding: none;
+  font-family: "Adrobe Devanagari";
+}
+
   nav {
     margin-right: 80px;
     display: flex;
@@ -70,25 +83,31 @@
   .right-side img {
     width: 110%;
   }
+
   #clock-icon {
     max-width: 50px;
 }
+
 #calories-icon {
     max-width: 50px;
 }
+
 .recipe-text p {
     font-size: 20px;
     max-width: 1000px;
 }
+
 .right-side-recipes {
     margin-top: -800px;
     float: right;
     padding: 0px 0px 0px 900px;
   }
+
   .right-side-recipes img {
     width: 110%;
     float: right;
   }
+
   .right-side-submit {
     margin-top: -850px;
     float: right;
@@ -104,3 +123,21 @@
       height: 200px;
       width: 600px;
   }
+
+  .trending-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: "Adobe Devenagari";
+}
+
+#flexitem {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 25px;
+    max-width: 500px;
+    max-height: 400px;
+}
