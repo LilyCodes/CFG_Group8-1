@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/CFG_Group8/css/style.css" />
     <title>Group8</title>
+    <script>
+function myFunction() {
+  document.getElementById("javascriptTest").innerHTML = "Paragraph changed.";
+}
+</script>
+</head>
+<body>
+
+
+<button type="button" onclick="myFunction()">Thanks for submitting!</button>
   </head>
   <body id="submit_page">
     <nav>
@@ -29,7 +39,8 @@
           <label for="sharerecipe">Share your recipe:</label><br />
           <input type="textarea" id="sharerecipe" name="sharerecipe" />
           <br /><br />
-          <button type="button">Submit!</button>
+          <p id="javascriptTest">Submit your recipe.</p>
+          <button type="button" onclick="myFunction()">Submit</button>
         </form>
         <div class="right-side-submit">
           <img
